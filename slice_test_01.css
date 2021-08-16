@@ -1,0 +1,477 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 185, 119); */
+    font-family: Arial,'Noto Sans TC';
+    padding: 0 auto;
+}
+
+.main{
+    /* width: 2000px; */
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    margin-top: 30px;
+    justify-content: center;
+    /* 水平置中太神啦 */
+    /* padding: 0 auto; */
+}
+.article{
+    width:45%;
+    background-color: rgb(255, 255, 255);
+    padding:10px 0rem 10px 4rem;
+    margin: 0 0;
+    /* border-right: 2px dashed black; */
+}
+/* 我手賤 弄sidebar */
+.sidebar{
+    border-left: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    /* margin: 60px 0 0 0; */
+    position: relative;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+footer{
+    background-color: rgb(190, 190, 190);
+    padding: 7px 0px;
+}
+
+h1{
+    font-weight: 700; 
+    line-height: 3rem; 
+    letter-spacing: 0em; 
+    font-size: 2.5rem;
+}
+h2{
+    font-weight: 700; 
+    line-height: 2.6rem; 
+    letter-spacing: 0em; 
+    font-size: 2.25rem;
+}
+h3{
+    font-weight: 600; 
+    line-height: 2.4rem; 
+    letter-spacing: 0em; 
+    font-size: 1.8rem;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+h4{
+    width: 600px;
+    font-weight: 600; 
+    line-height: 2.6rem; 
+    letter-spacing: 0em; 
+    font-size: 1.6rem;
+    margin: 50px 0 30px ;
+}
+
+h5{
+    font-weight: 600; 
+    line-height: 2rem; 
+    letter-spacing: 0em; 
+    font-size: 1.5rem;
+    
+}
+
+h6{
+    width: 330px;
+    font-weight: 600; 
+    line-height: 1.8rem; 
+    letter-spacing: 0em; 
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-bottom:2px solid rgb(37, 37, 37);
+}
+
+p{
+    text-align: justify;
+    width: 650px;
+    font-family:Arial, 'Noto Sans TC';
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+    font-weight: 500;
+    line-height: 2.6rem;
+    letter-spacing: 0em;
+    /* margin:15px 15%; */
+}
+
+img{
+    display:block;
+    width:700px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    /* margin: 30px 5%; */
+    /* margin:30px auto; */
+
+    /* height: 350px; */
+}
+
+.article ul{
+    margin-bottom:20px;
+}
+
+.article ol{
+    margin-bottom:20px;
+}
+
+.article ul li{
+    width: 550px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+    /* margin:26px 5% 0 15%; */
+    margin-left: 70px;
+    margin-top:26px;
+}
+
+.article ol li{
+    width: 550px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+    /* margin:26px 5% 0 15%; */
+    margin-left: 70px;
+    margin-top:26px;
+}
+
+li>img{
+    width: 100%;
+}
+
+::marker{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    display:inline-block;
+    text-align:center;
+}
+
+button:hover{
+    box-shadow:2px 3px 7px rgb(194, 194, 194) ;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    transition: ease .3s;
+}
+
+.book{
+    margin: 15px 0 0;
+    padding: 0 0;
+    border: 0;
+}
+
+.book:hover{
+    box-shadow:0 0 0;
+    /* color:rgb(0, 0, 0); */
+    /* cursor:pointer; */
+    /* transition: ease .3s; */
+}
+
+.bookimg{
+    width: 100%;
+    margin: 0;
+}
+
+.catego{
+    display:inline;
+    border:white solid 0px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    margin:15px 13px 5px 0px;
+    padding:10px 10px;
+    font-size: 1rem;
+    transition: ease .3s;
+    /* box-shadow: 2px 2px 5px lightsalmon; */
+}
+
+.url{
+    display:inline-block;
+    padding:auto auto 20em ;
+}
+
+a{
+    font-weight: 500;
+    color:darkSalmon;
+    text-decoration: none;
+}
+
+a:hover{
+    color:Salmon;
+}
+
+b{
+    color: black;
+    font-weight:600;
+    margin-left:3px;
+    margin-right:3px;
+    letter-spacing: 0.03em;
+}
+
+.row{
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.side{
+    margin: 0 0;
+    /* width: 100px; */
+    /* height:100px; */
+    /* margin: 50px 10px; */;
+    /* padding: 10px; */
+    list-style-type:none;
+}
+
+.side>li{
+    font-size: 1.1rem;
+    margin: 0 0;
+    width: 80%;
+    box-sizing: border-box;
+    border-bottom: rgb(182, 182, 182) 1.8px dashed;
+    line-height: 1.5rem;
+    padding:6px 0;
+}
+
+.end{
+    /* width: 100%; */
+    /* text-align: center; */
+    display: flex;
+    border-top: 1px solid rgb(212, 212, 212);
+    padding:23px 0px;
+    /* margin-top: 150px; */
+    margin: 150px 2rem 0 2rem;
+}
+
+.pre{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.ne{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.copy{
+    color: rgb(104, 104, 104);
+    margin: auto;
+    text-align: center;
+}
+
+
+iframe{
+    width:400px;
+    height: 200px;
+    margin:0;
+    margin-top: 30px;
+}
+
+.email{
+    width: 80%;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+
+::placeholder {
+    /* display: inline-block; */
+    margin-left:10px;
+    font-size: 1rem;
+    color: rgb(161, 133, 133);
+    vertical-align: center;
+    /* text-align: center; */
+}
+
+.tail{
+    margin-top: 40px;
+}
+
+
+.search-box:hover{
+    background: rgb(255, 255, 255);
+}
+
+.search-box{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    height: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 8px;
+    border: 2.5px solid salmon;
+    transition: .4s;
+}
+
+.search-box:hover > .search-text{
+    width: 200px;
+    background: rgb(255, 255, 255);
+}
+
+.search-box:hover > .search-btn{
+    color: salmon;
+}
+
+.search-text{
+    border: 0;
+    width: 0px;
+    background: rgb(255, 255, 255);
+    color: salmon;
+    /* line-height: 40px; */
+    float: left;
+    outline: none;
+    height: 25px;
+    transition: 0.4s;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    color: salmon;
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.endtop{
+    margin-top: 70px;
+}
+
+.subscrib-box{
+    width: 300px;
+    
+}
+
+.subscrib-txt{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border: 2px solid salmon;
+    color: salmon;
+    border-radius: 40px;
+    /* transform: (-50%,-50%); */
+    display: block;
+    margin:15px auto 0 auto;
+    text-align: center;
+}
+
+.subscrib-btn{
+    display: block;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    background: salmon;
+    color: snow;
+    border-radius: 40px;
+    margin:10px auto 0 auto;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    font-weight: 500;
+    /* float: right; */
+}
+.subscrib-btn:hover{
+    color:snow;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    /* float: center; */
+    /* align-items: center; */
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 6px 8px rgb(226, 226, 226);
+    border-top: 1px solid rgb(241, 241, 241);
+}
+nav ul{
+    list-style: none;
+    position: relative;
+    /* box-shadow: 0px 5px 10px rgb(216, 216, 216); */
+}
+nav ul li{
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    margin: 0px 15px;
+    padding: 5px 0;
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 60px;
+    padding: 8px 10px;
+    transform: left .5s;
+}
+nav ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 90px;
+    transition: top .3s;
+    box-shadow: 0px 5px 10px rgb(216, 216, 216);
+}
+
+/* nav ul li:hover{
+    border-bottom: 2px solid cyan;
+} */
+nav ul ul li a:hover{
+    color: salmon;
+}
+nav ul ul li:hover{
+    border-bottom: none;
+}
+nav ul li:hover > ul{
+    visibility: visible;
+    top: 70px;
+}
+nav ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 270px;
+    float: none;
+    display: list-item;
+    /* border-bottom: 1px solid rgba(0,0, 0, 0.3); */
+    padding-left: 10px;
+}
+nav ul ul li a{
+    line-height: 50px;
+    /* margin-left: 10px; */
+}
+nav ul ul li:hover > ul{
+    /* visibility: visible; */
+    top: 0px;
+}
+nav ul ul ul {
+    /* position: relative; */
+    top:70px;
+    left: 260px;
+    z-index: 20;
+}
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 20px 0;
+}
+header a img{
+    width: 23%;
+    margin: 0 auto
+}

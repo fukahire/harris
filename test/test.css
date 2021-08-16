@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: darkgreen;
+}
+
+main{
+    display: flex;
+    background-color: chocolate;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    /* padding: auto; */
+    /* align-items: center; */
+}
+
+div{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
+
+.bbb{
+    background-color: indigo;
+    width: 200px;
+}
